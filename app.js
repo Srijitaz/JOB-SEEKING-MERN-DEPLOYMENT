@@ -12,7 +12,7 @@ const app = express();
 dotenv.config({ path: './config/config.env' });
 
 app.use(cors ({
-    origin: ["http://localhost:5173"],
+    origin: ["https://job-seeking-web-application-sri.netlify.app"],
     methods: ["GET","POST","DELETE","PUT"],
     credentials: true,
 })
